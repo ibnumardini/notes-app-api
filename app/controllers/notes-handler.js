@@ -52,7 +52,7 @@ const getNote = (req, h) => {
 
   if (note !== undefined) {
     return {
-      status: 'status',
+      status: 'success',
       data: {
         note,
       },
